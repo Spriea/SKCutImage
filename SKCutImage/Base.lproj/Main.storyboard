@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clipImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Wza-uJ-DDX">
+                                <rect key="frame" x="10" y="56" width="394" height="480"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="480" id="MFI-RN-dFe"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPQ-g0-kQI">
+                                <rect key="frame" x="55" y="561" width="82" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="Pea-k0-wdk"/>
+                                    <constraint firstAttribute="width" constant="82" id="sbv-6X-pwP"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="切换图片"/>
+                                <connections>
+                                    <action selector="replaceImage" destination="BYZ-38-t0r" eventType="touchUpInside" id="IBu-Ry-moN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85v-gg-QlT">
+                                <rect key="frame" x="277" y="561" width="82" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="M9J-sP-viR"/>
+                                    <constraint firstAttribute="width" constant="82" id="SbL-PA-wl7"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="剪切图片"/>
+                                <connections>
+                                    <action selector="clipImageAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="r2b-bc-KJG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aPQ-g0-kQI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="13d-d5-Rfr"/>
+                            <constraint firstItem="85v-gg-QlT" firstAttribute="top" secondItem="Wza-uJ-DDX" secondAttribute="bottom" constant="25" id="14d-dJ-RyV"/>
+                            <constraint firstItem="aPQ-g0-kQI" firstAttribute="top" secondItem="Wza-uJ-DDX" secondAttribute="bottom" constant="25" id="LFQ-vk-glz"/>
+                            <constraint firstItem="Wza-uJ-DDX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="MOC-Yg-ZrX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wza-uJ-DDX" secondAttribute="trailing" constant="10" id="UuQ-b3-fK9"/>
+                            <constraint firstItem="Wza-uJ-DDX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="dzi-ys-qaa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="85v-gg-QlT" secondAttribute="trailing" constant="55" id="gFE-SQ-dPr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clipImageView" destination="Wza-uJ-DDX" id="4fb-D5-QVp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-155.07246376811597" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="clipImage.jpg" width="440" height="550"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

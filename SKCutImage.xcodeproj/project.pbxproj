@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C0203329C5B442EE66DD3CA /* Pods_SKCutImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73F9A44846A58BBB6D1B942 /* Pods_SKCutImage.framework */; };
+		F32E2A8427B5FB5C006583DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E2A8327B5FB5C006583DF /* AppDelegate.m */; };
+		F32E2A8727B5FB5C006583DF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E2A8627B5FB5C006583DF /* SceneDelegate.m */; };
+		F32E2A8A27B5FB5C006583DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E2A8927B5FB5C006583DF /* ViewController.m */; };
+		F32E2A8D27B5FB5C006583DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32E2A8B27B5FB5C006583DF /* Main.storyboard */; };
+		F32E2A8F27B5FB5E006583DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32E2A8E27B5FB5E006583DF /* Assets.xcassets */; };
+		F32E2A9227B5FB5E006583DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32E2A9027B5FB5E006583DF /* LaunchScreen.storyboard */; };
+		F32E2A9527B5FB5E006583DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E2A9427B5FB5E006583DF /* main.m */; };
+		F32E2A9D27B6524A006583DF /* SKCutLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E2A9C27B6524A006583DF /* SKCutLayoutView.m */; };
+		F32E2AA127B6547E006583DF /* SQTitleBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E2AA027B6547E006583DF /* SQTitleBtn.m */; };
+		F32E2AA427B65509006583DF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E2AA227B65509006583DF /* UIView+Frame.m */; };
+		F32E2AAB27B65D17006583DF /* UIColor+XQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E2AAA27B65D17006583DF /* UIColor+XQColor.m */; };
+		F372D70F27BB48BA00910C3E /* SKCutImgEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = F372D70E27BB48BA00910C3E /* SKCutImgEditView.m */; };
+		F383549727BA48AC003EF091 /* clipImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F383549627BA48AC003EF091 /* clipImage.jpg */; };
+		F383549D27BA4A17003EF091 /* SKImageZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F383549927BA4A17003EF091 /* SKImageZoomView.m */; };
+		F383549E27BA4A17003EF091 /* SKGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = F383549B27BA4A17003EF091 /* SKGridView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DCDE1BA23C06D121B454A39 /* Pods-SKCutImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKCutImage.release.xcconfig"; path = "Target Support Files/Pods-SKCutImage/Pods-SKCutImage.release.xcconfig"; sourceTree = "<group>"; };
+		1FF2096794E61D7514AE2C0A /* Pods-SKCutImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKCutImage.debug.xcconfig"; path = "Target Support Files/Pods-SKCutImage/Pods-SKCutImage.debug.xcconfig"; sourceTree = "<group>"; };
+		B73F9A44846A58BBB6D1B942 /* Pods_SKCutImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKCutImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32E2A7F27B5FB5C006583DF /* SKCutImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKCutImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32E2A8227B5FB5C006583DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F32E2A8327B5FB5C006583DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F32E2A8527B5FB5C006583DF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F32E2A8627B5FB5C006583DF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F32E2A8827B5FB5C006583DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F32E2A8927B5FB5C006583DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F32E2A8C27B5FB5C006583DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F32E2A8E27B5FB5E006583DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F32E2A9127B5FB5E006583DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F32E2A9427B5FB5E006583DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F32E2A9B27B6524A006583DF /* SKCutLayoutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCutLayoutView.h; sourceTree = "<group>"; };
+		F32E2A9C27B6524A006583DF /* SKCutLayoutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCutLayoutView.m; sourceTree = "<group>"; };
+		F32E2A9E27B652CD006583DF /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		F32E2A9F27B6547E006583DF /* SQTitleBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTitleBtn.h; sourceTree = "<group>"; };
+		F32E2AA027B6547E006583DF /* SQTitleBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTitleBtn.m; sourceTree = "<group>"; };
+		F32E2AA227B65509006583DF /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F32E2AA327B65509006583DF /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F32E2AA527B655B5006583DF /* SKCutImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCutImage.h; sourceTree = "<group>"; };
+		F32E2AA927B65D17006583DF /* UIColor+XQColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XQColor.h"; sourceTree = "<group>"; };
+		F32E2AAA27B65D17006583DF /* UIColor+XQColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XQColor.m"; sourceTree = "<group>"; };
+		F372D70D27BB48BA00910C3E /* SKCutImgEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCutImgEditView.h; sourceTree = "<group>"; };
+		F372D70E27BB48BA00910C3E /* SKCutImgEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCutImgEditView.m; sourceTree = "<group>"; };
+		F3754C5F27C389F500A9BA53 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F383549627BA48AC003EF091 /* clipImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clipImage.jpg; sourceTree = "<group>"; };
+		F383549927BA4A17003EF091 /* SKImageZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKImageZoomView.m; sourceTree = "<group>"; };
+		F383549A27BA4A17003EF091 /* SKGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKGridView.h; sourceTree = "<group>"; };
+		F383549B27BA4A17003EF091 /* SKGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKGridView.m; sourceTree = "<group>"; };
+		F383549C27BA4A17003EF091 /* SKImageZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKImageZoomView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F32E2A7C27B5FB5C006583DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C0203329C5B442EE66DD3CA /* Pods_SKCutImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A597CFEDEEB8E0CE0F11EE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2096794E61D7514AE2C0A /* Pods-SKCutImage.debug.xcconfig */,
+				0DCDE1BA23C06D121B454A39 /* Pods-SKCutImage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		895B1133AB8D9C99C0EFA3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B73F9A44846A58BBB6D1B942 /* Pods_SKCutImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F32E2A7627B5FB5C006583DF = {
+			isa = PBXGroup;
+			children = (
+				F32E2A8127B5FB5C006583DF /* SKCutImage */,
+				F32E2A8027B5FB5C006583DF /* Products */,
+				2A597CFEDEEB8E0CE0F11EE0 /* Pods */,
+				895B1133AB8D9C99C0EFA3DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F32E2A8027B5FB5C006583DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F32E2A7F27B5FB5C006583DF /* SKCutImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F32E2A8127B5FB5C006583DF /* SKCutImage */ = {
+			isa = PBXGroup;
+			children = (
+				F3C1C67B27C386EE006CBA84 /* Other */,
+				F383549827BA4A17003EF091 /* CutImgView */,
+				F32E2AAC27B65D35006583DF /* Category */,
+				F32E2A8827B5FB5C006583DF /* ViewController.h */,
+				F32E2A8927B5FB5C006583DF /* ViewController.m */,
+				F32E2A8B27B5FB5C006583DF /* Main.storyboard */,
+				F32E2A9B27B6524A006583DF /* SKCutLayoutView.h */,
+				F32E2A9C27B6524A006583DF /* SKCutLayoutView.m */,
+				F32E2A9F27B6547E006583DF /* SQTitleBtn.h */,
+				F32E2AA027B6547E006583DF /* SQTitleBtn.m */,
+				F32E2AA527B655B5006583DF /* SKCutImage.h */,
+				F32E2A9E27B652CD006583DF /* Common.h */,
+				F3754C5F27C389F500A9BA53 /* Info.plist */,
+			);
+			path = SKCutImage;
+			sourceTree = "<group>";
+		};
+		F32E2AAC27B65D35006583DF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F32E2AA327B65509006583DF /* UIView+Frame.h */,
+				F32E2AA227B65509006583DF /* UIView+Frame.m */,
+				F32E2AA927B65D17006583DF /* UIColor+XQColor.h */,
+				F32E2AAA27B65D17006583DF /* UIColor+XQColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F383549827BA4A17003EF091 /* CutImgView */ = {
+			isa = PBXGroup;
+			children = (
+				F372D70D27BB48BA00910C3E /* SKCutImgEditView.h */,
+				F372D70E27BB48BA00910C3E /* SKCutImgEditView.m */,
+				F383549C27BA4A17003EF091 /* SKImageZoomView.h */,
+				F383549927BA4A17003EF091 /* SKImageZoomView.m */,
+				F383549A27BA4A17003EF091 /* SKGridView.h */,
+				F383549B27BA4A17003EF091 /* SKGridView.m */,
+			);
+			path = CutImgView;
+			sourceTree = "<group>";
+		};
+		F3C1C67B27C386EE006CBA84 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F32E2A8227B5FB5C006583DF /* AppDelegate.h */,
+				F32E2A8327B5FB5C006583DF /* AppDelegate.m */,
+				F32E2A8527B5FB5C006583DF /* SceneDelegate.h */,
+				F32E2A8627B5FB5C006583DF /* SceneDelegate.m */,
+				F383549627BA48AC003EF091 /* clipImage.jpg */,
+				F32E2A8E27B5FB5E006583DF /* Assets.xcassets */,
+				F32E2A9027B5FB5E006583DF /* LaunchScreen.storyboard */,
+				F32E2A9427B5FB5E006583DF /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F32E2A7E27B5FB5C006583DF /* SKCutImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32E2A9827B5FB5E006583DF /* Build configuration list for PBXNativeTarget "SKCutImage" */;
+			buildPhases = (
+				B63D935CA527610F17A2E0B3 /* [CP] Check Pods Manifest.lock */,
+				F32E2A7B27B5FB5C006583DF /* Sources */,
+				F32E2A7C27B5FB5C006583DF /* Frameworks */,
+				F32E2A7D27B5FB5C006583DF /* Resources */,
+				7FC5EFA0EF40236BA807090A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKCutImage;
+			productName = SKCutImage;
+			productReference = F32E2A7F27B5FB5C006583DF /* SKCutImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F32E2A7727B5FB5C006583DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F32E2A7E27B5FB5C006583DF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = F32E2A7A27B5FB5C006583DF /* Build configuration list for PBXProject "SKCutImage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F32E2A7627B5FB5C006583DF;
+			productRefGroup = F32E2A8027B5FB5C006583DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F32E2A7E27B5FB5C006583DF /* SKCutImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F32E2A7D27B5FB5C006583DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32E2A9227B5FB5E006583DF /* LaunchScreen.storyboard in Resources */,
+				F32E2A8F27B5FB5E006583DF /* Assets.xcassets in Resources */,
+				F32E2A8D27B5FB5C006583DF /* Main.storyboard in Resources */,
+				F383549727BA48AC003EF091 /* clipImage.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FC5EFA0EF40236BA807090A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SKCutImage/Pods-SKCutImage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SKCutImage/Pods-SKCutImage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SKCutImage/Pods-SKCutImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B63D935CA527610F17A2E0B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKCutImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F32E2A7B27B5FB5C006583DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32E2A9D27B6524A006583DF /* SKCutLayoutView.m in Sources */,
+				F32E2A8A27B5FB5C006583DF /* ViewController.m in Sources */,
+				F383549D27BA4A17003EF091 /* SKImageZoomView.m in Sources */,
+				F32E2A8427B5FB5C006583DF /* AppDelegate.m in Sources */,
+				F32E2AA427B65509006583DF /* UIView+Frame.m in Sources */,
+				F32E2AAB27B65D17006583DF /* UIColor+XQColor.m in Sources */,
+				F372D70F27BB48BA00910C3E /* SKCutImgEditView.m in Sources */,
+				F383549E27BA4A17003EF091 /* SKGridView.m in Sources */,
+				F32E2A9527B5FB5E006583DF /* main.m in Sources */,
+				F32E2A8727B5FB5C006583DF /* SceneDelegate.m in Sources */,
+				F32E2AA127B6547E006583DF /* SQTitleBtn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F32E2A8B27B5FB5C006583DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32E2A8C27B5FB5C006583DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F32E2A9027B5FB5E006583DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32E2A9127B5FB5E006583DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F32E2A9627B5FB5E006583DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F32E2A9727B5FB5E006583DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F32E2A9927B5FB5E006583DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF2096794E61D7514AE2C0A /* Pods-SKCutImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GV6BX2EEDK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SKCutImage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somer.SKCutImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F32E2A9A27B5FB5E006583DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DCDE1BA23C06D121B454A39 /* Pods-SKCutImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GV6BX2EEDK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SKCutImage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somer.SKCutImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F32E2A7A27B5FB5C006583DF /* Build configuration list for PBXProject "SKCutImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32E2A9627B5FB5E006583DF /* Debug */,
+				F32E2A9727B5FB5E006583DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32E2A9827B5FB5E006583DF /* Build configuration list for PBXNativeTarget "SKCutImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32E2A9927B5FB5E006583DF /* Debug */,
+				F32E2A9A27B5FB5E006583DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F32E2A7727B5FB5C006583DF /* Project object */;
+}
